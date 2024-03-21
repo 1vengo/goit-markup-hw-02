@@ -26,6 +26,7 @@ h2 {
   text-transform: capitalize;
   letter-spacing: 0.02em;
   line-height: 1.11;
+  color: #2e2f42;
 }
 h1 {
   font-weight: 700;
@@ -85,9 +86,15 @@ h1 {
   background-color: #2e2f42;
   color: #f4f4fd;
 }
-.header-adress-link {
+.header-adress {
   font-style: normal;
+}
+.header-adress-link {
   color: #434455;
+}
+.header-adress-link:focus,
+.header-adress-link:hover {
+  color: #404bbf;
 }
 .footer-accent {
   color: #f4f4fd;
